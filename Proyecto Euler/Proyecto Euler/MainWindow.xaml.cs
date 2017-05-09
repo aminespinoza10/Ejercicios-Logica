@@ -15,5 +15,11 @@ namespace Proyecto_Euler
             Multiplos newMultiplos = new Multiplos();
             newMultiplos.Show();
         }
+
+        private void btnFactoriales_Click(object sender, RoutedEventArgs e)
+        {
+            Factoriales newFactoriales = new Factoriales();
+            newFactoriales.Show();
+        }
     }
 }

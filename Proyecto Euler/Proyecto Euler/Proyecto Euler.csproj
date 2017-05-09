@@ -54,6 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Ejercicios\Factoriales.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Ejercicios\Multiplos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -65,6 +69,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ejercicios\Factoriales.xaml.cs">
+      <DependentUpon>Factoriales.xaml</DependentUpon>
     </Compile>
     <Compile Include="Ejercicios\Multiplos.xaml.cs">
       <DependentUpon>Multiplos.xaml</DependentUpon>

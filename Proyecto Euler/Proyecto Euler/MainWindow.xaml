@@ -8,6 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="btnMultiplos" Content="Múltiplos de 3 y 5" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btnMultiplos_Click"/>
+        <Button x:Name="btnFactoriales" Content="Factoriales" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btnFactoriales_Click"/>
 
     </Grid>
 </Window>
