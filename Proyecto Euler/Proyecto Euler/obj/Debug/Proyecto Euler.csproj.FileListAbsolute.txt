@@ -1,0 +1,16 @@
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\bin\Debug\Proyecto Euler.exe.config
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\bin\Debug\Proyecto Euler.exe
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\bin\Debug\Proyecto Euler.pdb
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.csprojResolveAssemblyReference.cache
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\Multiplos.baml
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\Multiplos.g.cs
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\MainWindow.g.cs
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\App.g.cs
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler_MarkupCompile.cache
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler_MarkupCompile.lref
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\MainWindow.baml
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.g.resources
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto_Euler.Properties.Resources.resources
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.csproj.GenerateResource.Cache
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.exe
+c:\users\amin espinoza\documents\visual studio 2017\Projects\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.pdb
