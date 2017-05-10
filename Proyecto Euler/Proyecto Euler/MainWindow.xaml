@@ -9,6 +9,7 @@
     <Grid>
         <Button x:Name="btnMultiplos" Content="Múltiplos de 3 y 5" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btnMultiplos_Click"/>
         <Button x:Name="btnFactoriales" Content="Factoriales" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btnFactoriales_Click"/>
+        <Button x:Name="btnTernasPitagoras" Content="Ternas pitagóricas" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="150" Height="30" Click="btnTernasPitagoras_Click"/>
 
     </Grid>
 </Window>

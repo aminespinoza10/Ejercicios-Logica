@@ -21,5 +21,11 @@ namespace Proyecto_Euler
             Factoriales newFactoriales = new Factoriales();
             newFactoriales.Show();
         }
+
+        private void btnTernasPitagoras_Click(object sender, RoutedEventArgs e)
+        {
+            PitagorasTriple newPitagoras = new PitagorasTriple();
+            newPitagoras.Show();
+        }
     }
 }
