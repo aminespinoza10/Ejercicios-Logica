@@ -1,0 +1,14 @@
+﻿<Window x:Class="Proyecto_Euler.Ejercicios.Palindromos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Euler.Ejercicios"
+        mc:Ignorable="d"
+        Title="Palindromos" Height="300" Width="300">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Text="Verifica si el número es palíndromo"/>
+        <Button x:Name="btnAnswer" Content="Obtener respuesta" Height="21.495" Margin="10,90,10,0" VerticalAlignment="Top" Click="btnAnswer_Click"/>
+        <TextBox x:Name="txtAnswer" Margin="10,130,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

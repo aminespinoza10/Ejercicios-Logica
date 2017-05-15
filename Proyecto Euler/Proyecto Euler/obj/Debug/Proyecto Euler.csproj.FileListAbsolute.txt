@@ -34,3 +34,5 @@ C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyec
 C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyecto Euler\obj\Debug\Proyecto Euler.pdb
 C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\PitagorasTriple.baml
 C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\PitagorasTriple.g.cs
+C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\Palindromos.g.cs
+C:\Users\Amin Espinoza\Documents\GitHub\Proyectos-Euler-C-\Proyecto Euler\Proyecto Euler\obj\Debug\Ejercicios\Palindromos.baml

@@ -27,5 +27,11 @@ namespace Proyecto_Euler
             PitagorasTriple newPitagoras = new PitagorasTriple();
             newPitagoras.Show();
         }
+
+        private void btnPalindromos_Click(object sender, RoutedEventArgs e)
+        {
+            Palindromos newPalindromos = new Palindromos();
+            newPalindromos.Show();
+        }
     }
 }
