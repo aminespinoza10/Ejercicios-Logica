@@ -33,5 +33,11 @@ namespace Proyecto_Euler
             Palindromos newPalindromos = new Palindromos();
             newPalindromos.Show();
         }
+
+        private void btnPrimos_Click(object sender, RoutedEventArgs e)
+        {
+            Primos newPrimos = new Primos();
+            newPrimos.Show();
+        }
     }
 }
