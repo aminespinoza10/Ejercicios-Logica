@@ -1,14 +1,26 @@
-# Proyectos de Euler en C#
+# Proyectos de Euler
 
 ## Objetivo ##
 
 Es muy simple, trabajar un poco en lógica de pensamiento a través de resolver problemas matemáticos que deben ir subiendo su complejidad poco a poco.  
 
-Todos los problemas de este repositorio serán resueltos a través de C# y usando WPF como plataforma. Así podré ir haciendo un catálogo integrando todas las soluciones en un solo repositorio.
+Todos los problemas de este repositorio serán resueltos a través de C#, Python o Node, son los lenguajes que estoy acostumbrado a utilizar en diferentes escenarios. Así podré ir haciendo un catálogo integrando todas las soluciones en un solo repositorio, cada lenguaje tiene su propia carpeta y posiblemente los ejercicios no sean los mismos.
 
-## La estructura ##
+## Los ejercicios ##
 
-La estructura está compuesta por un simple catálogo de proyectos y cada proyecto se encuentra en una ventana nueva que les permitirá mantener cierta independencia entre ellos.
+En C# están los siguientes.
+- Factores primarios
+- Múltiplos de 3 y 5
+- Palíndromos
+- Terna de pitágoras
+- Suma de números primos
+
+En Python están los siguientes.
+- Múltiplos de 3 y 5
+- Secuencia de Fibonacci
+
+En Node están los siguientes.
+
 
 Cualquier duda comentario o retroalimentación sugerida para este repositorio públicalo dentro de la categoría de **Issues** para poder leerlo de prisa.
 
