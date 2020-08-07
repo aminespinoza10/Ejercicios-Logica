@@ -1,23 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Windows;
 using System.Linq;
 
-namespace Proyecto_Euler.Ejercicios
+namespace Palindromo
 {
-    /// <summary>
-    /// Interaction logic for Palindromos.xaml
-    /// </summary>
-    public partial class Palindromos : Window
+    class Program
     {
-        public Palindromos()
+        static void Main(string[] args)
         {
-            InitializeComponent();
-        }
+            Console.WriteLine("Ejecución de aplicación");
+            Console.WriteLine("Ingresa por favor el número que quieres evaluar");
+            string receivedValue = Console.ReadLine();
 
-        private void btnAnswer_Click(object sender, RoutedEventArgs e)
-        {
-            string receivedValue = txtAnswer.Text;
             List<int> firstList = PopulateFirstList(receivedValue);
             List<int> secondList = PopulateSecondList(receivedValue);
 
@@ -25,21 +19,19 @@ namespace Proyecto_Euler.Ejercicios
 
             if (a)
             {
-                MessageBox.Show("Tienes un palíndromo!");
-                txtAnswer.Text = string.Empty;
+                Console.WriteLine("Tienes un palíndromo!");
             }
             else
             {
-                MessageBox.Show("Sigue intentando");
-                txtAnswer.Text = string.Empty;
+                Console.WriteLine("Sigue intentando");
             }
         }
 
-        private List<int> PopulateFirstList(string receivedString)
+        static List<int> PopulateFirstList(string receivedString)
         {
             List<int> firstList = new List<int>();
 
-            foreach (char item in txtAnswer.Text)
+            foreach (char item in receivedString)
             {
                 string newCharacter = item.ToString();
                 firstList.Add(Convert.ToInt32(newCharacter));
@@ -49,11 +41,11 @@ namespace Proyecto_Euler.Ejercicios
             return firstList;
         }
 
-        private List<int> PopulateSecondList(string receivedString)
+        static List<int> PopulateSecondList(string receivedString)
         {
             List<int> secondList = new List<int>();
 
-            foreach (char item in txtAnswer.Text)
+            foreach (char item in receivedString)
             {
                 string newCharacter = item.ToString();
                 secondList.Add(Convert.ToInt32(newCharacter));
