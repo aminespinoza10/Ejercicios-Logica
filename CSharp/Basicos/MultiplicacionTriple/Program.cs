@@ -6,11 +6,11 @@ namespace MultiplicacionTriple
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola! Comencemos con recibir el primer número:");
+            Console.Write("Hola! Comencemos con recibir el primer número:");
             int numberOne = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Ahora dame el segundo número");
+            Console.Write("Ahora dame el segundo número");
             int numberTwo = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Vamos por el el tercer número");
+            Console.Write("Vamos por el el tercer número");
             int numberThree = Convert.ToInt16(Console.ReadLine());
             int operationResult = Multiplicate(numberOne, numberTwo, numberThree);
             Console.WriteLine($"Tu resultado es {operationResult}");
