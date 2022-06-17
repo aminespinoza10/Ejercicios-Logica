@@ -1,49 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿List<int> multiples = new List<int>();
 
-namespace Multiplos
+Console.WriteLine("Ejecución de aplicación");
+IsNumberDivisible();
+string finalResult = GetFinalSum();
+Console.Write("Tu resultado es: ");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine(finalResult);
+
+
+void IsNumberDivisible()
 {
-    class Program
+    for (int i = 1; i < 1000; i++)
     {
-        static List<int> multiples = new List<int>();
-        static void Main(string[] args)
+        if (i % 3 == 0)
         {
-            Console.WriteLine("Ejecución de aplicación");
-            IsNumberDivisible();
-            string finalResult = GetFinalSum();
-            Console.Write("Tu resultado es: ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(finalResult);
+            multiples.Add(i);
         }
-
-        static void IsNumberDivisible()
+        if (i % 5 == 0)
         {
-            for (int i = 1; i < 1000; i++)
-            {
-                if (i % 3 == 0)
-                {
-                    multiples.Add(i);
-                }
-                if (i % 5 == 0)
-                {
-                    multiples.Add(i);
-                }
-            }
-        }
-
-        static string GetFinalSum()
-        {
-            List<int> finalCleanList = multiples.Distinct().ToList();
-            int finalNumber = 0;
-
-            foreach (int item in finalCleanList)
-            {
-                finalNumber += item;
-            }
-
-            return finalNumber.ToString();
+            multiples.Add(i);
         }
     }
-    
+}
+
+string GetFinalSum()
+{
+    List<int> finalCleanList = multiples.Distinct().ToList();
+    int finalNumber = 0;
+
+    foreach (int item in finalCleanList)
+    {
+        finalNumber += item;
+    }
+
+    return finalNumber.ToString();
 }
