@@ -1,30 +1,19 @@
-﻿using System;
+﻿Console.WriteLine("Ejecución de aplicación");
+EvaluateExpression(1000);
 
-namespace PitagorasTriple
+static void EvaluateExpression(int desiredNumber)
 {
-    class Program
+    int a;
+
+    for (a = 1; a <= desiredNumber / 3; a++)
     {
-        static void Main(string[] args)
+        int b;
+        for (b = a + 1; b <= desiredNumber / 2; b++)
         {
-            Console.WriteLine("Ejecución de aplicación");
-            EvaluateExpression(1000);
-        }
-
-        static void EvaluateExpression(int desiredNumber)
-        {
-            int a;
-
-            for (a = 1; a <= desiredNumber / 3; a++)
+            int c = desiredNumber - a - b;
+            if (a * a + b * b == c * c)
             {
-                int b;
-                for (b = a + 1; b <= desiredNumber / 2; b++)
-                {
-                    int c = desiredNumber - a - b;
-                    if (a * a + b * b == c * c)
-                    {
-                        Console.WriteLine($"{a}, {b}, {c}");
-                    }
-                }
+                Console.WriteLine($"{a}, {b}, {c}");
             }
         }
     }
