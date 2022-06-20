@@ -1,33 +1,22 @@
-﻿using System;
+﻿Console.WriteLine("Ejecución de aplicación");
+SearchFactorial(600851475143);
 
-namespace Factoriales
+static void SearchFactorial(long evaluatedNumber)
 {
-    class Program
+    long k = 2;
+    while (k * k <= evaluatedNumber)
     {
-        static void Main(string[] args)
+        if (evaluatedNumber % k == 0)
         {
-            Console.WriteLine("Ejecución de aplicación");
-            SearchFactorial(600851475143);
+            evaluatedNumber /= k;
         }
-
-        static void SearchFactorial(long evaluatedNumber)
+        else
         {
-            long k = 2;
-            while (k * k <= evaluatedNumber)
-            {
-                if (evaluatedNumber % k == 0)
-                {
-                    evaluatedNumber /= k;
-                }
-                else
-                {
-                    ++k;
-                }
-            }
-
-            Console.Write("Tu resultado es: ");
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(evaluatedNumber);
+            ++k;
         }
     }
+
+    Console.Write("Tu resultado es: ");
+    Console.ForegroundColor = ConsoleColor.Cyan;
+    Console.WriteLine(evaluatedNumber);
 }
