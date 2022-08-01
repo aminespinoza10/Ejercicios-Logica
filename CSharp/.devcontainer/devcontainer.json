@@ -1,0 +1,22 @@
+{
+	"name": "C# (.NET)",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"VARIANT": "6.0-bullseye",
+		}
+	},
+
+	"customizations": {
+		"vscode": {	
+			"extensions": [
+				"ms-dotnettools.csharp"
+			]
+		}
+	},
+
+	"postCreateCommand": "dotnet restore /Euler/Primos",
+
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
