@@ -275,8 +275,8 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
-# Visual Studio 6 build log
-*.plg
+# Visual Studio solution file
+*.sln
 
 # Visual Studio 6 workspace options file
 *.opt
